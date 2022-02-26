@@ -1,16 +1,18 @@
-# dos / дос
-> A Nodejs based DoS/DDoS script.
+# Overview / Общая информация
+>A Nodejs tool for testing sites performance (stress testing).
 
->Беслпатная утилита для тестирования нагрузки сайтов 
+>Беслпатная утилита для тестирования нагрузки сайтов (стресс тесты)
 
 
-## Install / Установка пакетов
+## Install / Установка
 
 Download and install this program https://nodejs.org/en/. After that you will be good to start
 
 Скачайте и установите данную программу https://nodejs.org/en/. После этого можете запускать скрипт
 
 ## API
+In index.js change this to your website URL and configure the number of requests
+
 В файле index.js поменяйте следующую строку на нужный вам сайт и нужное количество запросов
 
 ```js
@@ -25,8 +27,7 @@ dos('your-website-example.com', 150, 500)
 > dos(url: string, quantity: number, delay: number): void
 
 
-## Usage
-## Использование
+## Usage / Использование
 
 ```bash
 $ npm install
@@ -35,4 +36,3 @@ $ npm start
 ```
 
 ---
-
